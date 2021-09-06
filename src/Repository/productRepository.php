@@ -247,8 +247,8 @@ $result=[
 ];
 
 
-        $result['colors']['asdasd']=$result['colors']['product_id'];
-        unset($result['colors']['product_id']);
+//        $result['colors']['asdasd']=$result['colors']['product_id'];
+//        unset($result['colors']['product_id']);
 
 
         return json_encode($result,JSON_PRETTY_PRINT);
